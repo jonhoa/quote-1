@@ -1,19 +1,6 @@
-function Header() {}
-
-function ProductsNew() {}
-
-function ProductsIndex() {}
-
-function Footer() {}
-
-function Content() {
-  return (
-    <div>
-      <ProductsNew />
-      <ProductsIndex />
-    </div>
-  );
-}
+import { Content } from "./Content";
+import { Footer } from "./Footer";
+import { Header } from "./Header";
 
 function App() {
   return (
